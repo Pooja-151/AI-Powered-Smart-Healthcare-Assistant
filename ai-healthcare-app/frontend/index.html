@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Healthcare Dashboard</title>
+  <link rel="stylesheet" href="css/index.css" />
+</head>
+<body>
+
+<div class="app">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="logo">
+      🩺 SmartCare
+    </div>
+
+    <nav>
+      <a class="active" href="index.html">🏠 Dashboard</a>
+      <a href="symptom-checker.html">🩺 Symptom Checker</a>
+      <a href="reports.html">📊 Health Reports</a>
+      <a href="doctors.html">👨‍⚕️ Doctors & Hospitals</a>
+      <a href="chatbot.html">💬 AI Health Assistant</a>
+      <a href="history.html">📁 History</a>
+      <a href="download.html">📥 Downloads</a>
+      <a href="settings.html">⚙️ Settings</a>
+    </nav>
+
+    <div class="logout">
+      🚪 Logout
+    </div>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="main">
+    <header class="header">
+      <h2>👋 Hello, Human</h2>
+      <p>AI-Powered Smart Healthcare Assistant</p>
+    </header>
+
+    <!-- QUICK STATS -->
+    <section class="stats">
+      <div class="card">
+        <h3>Total Checks</h3>
+        <p>12</p>
+      </div>
+      <div class="card">
+        <h3>Last Risk Level</h3>
+        <p class="moderate">Moderate</p>
+      </div>
+      <div class="card">
+        <h3>Reports Generated</h3>
+        <p>5</p>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <h3>Check your symptoms now</h3>
+      <button id="checkBtn"><a href="symptom-checker.html">🩺 Symptom Checker</a></button>
+    </section>
+
+    <!-- ROADMAP (Optional but impressive) -->
+    <section class="roadmap">
+      <h3>🚀 Product Roadmap</h3>
+      <ul>
+        <li>✅ Foundation – Completed</li>
+        <li>⏳ Core Features – In Progress</li>
+        <li>🔒 Advanced AI – Planned</li>
+      </ul>
+    </section>
+  </main>
+
+</div>
+<script src="js/dashboard.js"></script>
+</body>
+</html>
+
+

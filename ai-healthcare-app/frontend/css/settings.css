@@ -1,0 +1,26 @@
+.settings-card {
+  background: #111;
+  border: 1px solid #FFD700;
+  border-radius: 14px;
+  padding: 20px;
+  margin: 20px;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(255,215,0,0.4);
+  max-width: 400px;
+}
+
+.settings-card h3 {
+  color: #FFD700;
+  margin-bottom: 15px;
+}
+
+.settings-card input,
+.settings-card select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  background: black;
+  border: 1px solid #FFD700;
+  color: #fff;
+  border-radius: 6px;
+}

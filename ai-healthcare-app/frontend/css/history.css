@@ -1,0 +1,55 @@
+.card {
+  background: #111;
+  padding: 20px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+  box-shadow: 0 0 15px rgba(255,215,0,0.3);
+}
+
+.card h3 {
+  color: #FFD700;
+  margin-bottom: 15px;
+}
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  color: #fff;
+}
+
+th {
+  background: #FFD700;
+  color: #000;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  border-bottom: 1px solid #444;
+  text-align: center;
+}
+
+/* GRAPH */
+canvas {
+  background: #fff;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  table thead {
+    display: none;
+  }
+
+  table tbody tr {
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  table tbody td {
+    display: flex;
+    justify-content: space-between;
+  }
+}

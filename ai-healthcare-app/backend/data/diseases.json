@@ -1,0 +1,4 @@
+[
+  { "name": "Common Cold", "symptoms": ["cough", "fatigue"], "severity": "Minor" },
+  { "name": "Flu", "symptoms": ["fever", "cough", "fatigue"], "severity": "Moderate" }
+]

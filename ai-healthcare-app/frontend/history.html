@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Health History</title>
+
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/history.css" />
+
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+<div class="app">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="logo">🩺 SmartCare</div>
+
+    <nav>
+      <a href="index.html">🏠 Dashboard</a>
+      <a href="symptom-checker.html">🩺 Symptom Checker</a>
+      <a href="reports.html">📊 Health Reports</a>
+      <a href="doctors.html">👨‍⚕️ Doctors & Hospitals</a>
+      <a href="chatbot.html">💬 AI Health Assistant</a>
+      <a href="history.html">📁 History</a>    <!-- <a class="active" href="history.html">📁 History</a> -->
+      <a href="download.html">📥 Downloads</a>
+      <a href="settings.html">⚙️ Settings</a>
+    </nav>
+
+    <div class="logout">🚪 Logout</div>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+
+    <header class="header">
+      <h2>📈 Health History & Trends</h2>
+      <p>Your previous symptom checks & severity trend</p>
+    </header>
+
+    <!-- GRAPH -->
+    <div class="card">
+      <h3>📉 Health Severity Trend</h3>
+      <canvas id="healthChart" height="100"></canvas>
+    </div>
+
+    <!-- TABLE -->
+    <div class="card">
+      <h3>📋 History Records</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Symptoms</th>
+            <th>Disease</th>
+            <th>Severity</th>
+            <th>Risk</th>
+          </tr>
+        </thead>
+        <tbody id="historyTable"></tbody>
+      </table>
+    </div>
+
+  </main>
+</div>
+
+<script src="js/history.js"></script>
+</body>
+</html>

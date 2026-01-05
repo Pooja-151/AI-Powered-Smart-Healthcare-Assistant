@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: Segoe UI;
+  background: #000;
+  color: #fff;
+}
+
+.app {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 230px;
+  background: #0d0d0d;
+  padding: 20px;
+  border-right: 1px solid #FFD700;
+}
+
+.logo {
+  color: #FFD700;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.nav-item {
+  display: block;
+  padding: 12px;
+  margin-bottom: 10px;
+  color: #ccc;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.nav-item:hover,
+.nav-item.active {
+  background: #FFD700;
+  color: #000;
+}
+
+.main {
+  flex: 1;
+  padding: 20px;
+}
+
+.topbar {
+  padding: 15px;
+  background: #111;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}

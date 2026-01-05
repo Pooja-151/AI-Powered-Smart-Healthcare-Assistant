@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Settings</title>
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/settings.css" />
+</head>
+<body>
+
+<div class="app">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="logo">🩺 SmartCare</div>
+
+    <nav>
+      <a href="index.html">🏠 Dashboard</a>
+      <a href="symptom-checker.html">🩺 Symptom Checker</a>
+      <a href="reports.html">📊 Health Reports</a>
+      <a href="doctors.html">👨‍⚕️ Doctors & Hospitals</a>
+      <a href="chatbot.html">💬 AI Health Assistant</a>
+      <a href="history.html">📁 History</a>
+      <a href="download.html">📥 Downloads</a>
+      <a class="active" href="settings.html">⚙️ Settings</a>
+    </nav>
+
+    <div class="logout">🚪 Logout</div>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+    <header class="header">
+      <h2>⚙️ Settings</h2>
+      <p>Manage your profile & preferences</p>
+    </header>
+
+    <div class="settings-card">
+      <h3>👤 Profile</h3>
+      <input type="text" placeholder="Name" value="Human">
+      <input type="email" placeholder="Email" value="human@email.com">
+      <button onclick="save()">Save Changes</button>
+    </div>
+
+    <div class="settings-card">
+      <h3>🌐 Language</h3>
+      <select>
+        <option>English</option>
+        <option>Hindi</option>
+        <option>Regional</option>
+      </select>
+      <button onclick="save()">Update Language</button>
+    </div>
+  </main>
+
+</div>
+
+<script>
+function save() {
+  alert("Settings will be saved in final version.");
+}
+</script>
+
+</body>
+</html>

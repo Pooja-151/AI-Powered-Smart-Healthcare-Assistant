@@ -1,0 +1,32 @@
+.download-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.download-card {
+  background: #111;
+  border: 1px solid #FFD700;
+  border-radius: 14px;
+  padding: 20px;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(255,215,0,0.4);
+  text-align: center;
+  transition: transform 0.3s;
+}
+
+.download-card:hover {
+  transform: translateY(-6px);
+}
+
+.download-card h3 {
+  color: #FFD700;
+  margin-bottom: 10px;
+}
+
+.download-card p {
+  font-size: 14px;
+  color: #ccc;
+  margin-bottom: 15px;
+}

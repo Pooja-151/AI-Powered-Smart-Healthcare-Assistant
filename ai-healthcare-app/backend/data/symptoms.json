@@ -1,0 +1,22 @@
+[
+  {
+    "disease": "Common Cold",
+    "symptoms": ["cough", "sneezing", "runny nose"],
+    "severity": "Minor"
+  },
+  {
+    "disease": "Flu",
+    "symptoms": ["fever", "body pain", "headache", "fatigue"],
+    "severity": "Moderate"
+  },
+  {
+    "disease": "COVID-19",
+    "symptoms": ["fever", "cough", "breathing problem", "loss of taste"],
+    "severity": "Critical"
+  },
+  {
+    "disease": "Food Poisoning",
+    "symptoms": ["vomiting", "diarrhea", "stomach pain"],
+    "severity": "Moderate"
+  }
+]

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Downloads</title>
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/download.css" />
+</head>
+<body>
+
+<div class="app">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="logo">🩺 SmartCare</div>
+
+    <nav>
+      <a href="index.html">🏠 Dashboard</a>
+      <a href="symptom-checker.html">🩺 Symptom Checker</a>
+      <a href="reports.html">📊 Health Reports</a>
+      <a href="doctors.html">👨‍⚕️ Doctors & Hospitals</a>
+      <a href="chatbot.html">💬 AI Health Assistant</a>
+      <a href="history.html">📁 History</a>
+      <a class="active" href="download.html">📥 Downloads</a>
+      <a href="settings.html">⚙️ Settings</a>
+    </nav>
+
+    <div class="logout">🚪 Logout</div>
+  </aside>
+
+  <!-- MAIN -->
+  <main class="main">
+    <header class="header">
+      <h2>📥 Download Reports</h2>
+      <p>Get your health reports instantly</p>
+    </header>
+
+    <div class="download-grid">
+      <div class="download-card">
+        <h3>🩺 Symptom Report</h3>
+        <p>Last diagnosis summary</p>
+        <button onclick="demoDownload()">Download PDF</button>
+      </div>
+
+      <div class="download-card">
+        <h3>📊 Health Trend Report</h3>
+        <p>Weekly health overview</p>
+        <button onclick="demoDownload()">Download PDF</button>
+      </div>
+
+      <div class="download-card">
+        <h3>👨‍⚕️ Doctor Recommendation</h3>
+        <p>Suggested doctors & hospitals</p>
+        <button onclick="demoDownload()">Download PDF</button>
+      </div>
+    </div>
+  </main>
+
+</div>
+
+<script src="js/download.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Symptom Checker</title>
+
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/symptom.css" />
+</head>
+<body>
+
+<div class="app">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <div class="logo">🩺 SmartCare</div>
+
+    <nav>
+      <a href="index.html">🏠 Dashboard</a>
+      <a class="active" href="symptom-checker.html">🩺 Symptom Checker</a>
+      <a href="reports.html">📊 Health Reports</a>
+      <a href="doctors.html">👨‍⚕️ Doctors & Hospitals</a>
+      <a href="chatbot.html">💬 AI Health Assistant</a>
+      <a href="history.html">📁 History</a>
+      <a href="download.html">📥 Downloads</a>
+      <a href="settings.html">⚙️ Settings</a>
+    </nav>
+
+    <div class="logout">🚪 Logout</div>
+  </aside>
+
+  <!-- MAIN CONTENT -->
+  <main class="main">
+
+    <header class="header">
+      <h2>🩺 Symptom Checker</h2>
+      <p>Enter your symptoms to get instant health guidance</p>
+    </header>
+
+    <div class="card">
+      <textarea id="symptoms" placeholder="Example: fever, cold, headache"></textarea>
+
+      <button id="checkBtn">Analyze Symptoms</button>
+
+      <!-- RESULT -->
+      <div id="result" class="result hidden">
+        <p><b>Possible Disease:</b> <span id="disease"></span></p>
+        <p><b>Risk Score:</b> <span id="probability"></span></p>
+        <p><b>Severity:</b> <span id="severity"></span></p>
+      </div>
+
+      <!-- DOCTOR RECOMMENDATION -->
+      <div id="doctors" class="doctors hidden">
+        <h3>👨‍⚕️ Recommended Doctors / Hospitals</h3>
+        <div id="doctorList"></div>
+      </div>
+
+    <button id="downloadPdf" class="pdf-btn hidden">📄 Download Health Report (PDF)</button>
+  
+  </div>
+  </main>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="js/symptom.js"></script>
+
+</body>
+</html>

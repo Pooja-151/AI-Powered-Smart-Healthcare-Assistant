@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Dr. Amit Sharma",
+    "specialty": "General Physician",
+    "contact": "9876543210",
+    "rating": 4.5,
+    "severity": ["Minor", "Moderate"]
+  },
+  {
+    "name": "Dr. Neha Verma",
+    "specialty": "Cardiologist",
+    "contact": "9123456789",
+    "rating": 4.8,
+    "severity": ["Critical"]
+  },
+  {
+    "name": "City Care Hospital",
+    "specialty": "Multi-Specialty Hospital",
+    "contact": "1800-111-222",
+    "rating": 4.6,
+    "severity": ["Critical", "Moderate"]
+  }
+]
